@@ -24,8 +24,8 @@ bin/phpbc git@github.com:laravel/framework.git git@github.com:symfony/symfony.gi
 
 # TODO
 
-[ ] Refactor
-[ ] Add matcher some RFC info (url or smth.)
+* [ ] Refactor
+* [ ] Add matcher some RFC info (url or smth.)
 
 
 ## LICENSE
