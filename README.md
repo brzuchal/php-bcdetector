@@ -16,6 +16,18 @@ And run in CLI
 bin/php-bcdetector
 ```
 
+Or with projects in arguments:
+
+```bash
+bin/phpbc git@github.com:laravel/framework.git git@github.com:symfony/symfony.git git@github.com:doctrine/doctrine2.git git@github.com:yiisoft/yii2.git git@github.com:bcit-ci/CodeIgniter.git git@github.com:cakephp/cakephp.git git@github.com:zendframework/zendframework.git git@github.com:slimphp/Slim.git git@github.com:fuelphp/fuelphp.git -d /tmp/phpbc
+```
+
+# TODO
+
+[ ] Refactor
+[ ] Add matcher some RFC info (url or smth.)
+
+
 ## LICENSE
 
 The MIT License (MIT)

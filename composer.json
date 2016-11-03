@@ -1,0 +1,23 @@
+{
+    "name": "brzuchal/phpbc",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Brzuchal\\PHPBC\\": "src/"
+        }
+    },
+    "require": {
+        "sebastian/git": "2.1.*",
+        "squizlabs/php_codesniffer": "2.*",
+        "symfony/console": "*",
+        "symfony/filesystem": "*",
+        "symfony/process": "*",
+        "naneau/semver": "^0.0.7"
+    },
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "*"
+    }
+}
